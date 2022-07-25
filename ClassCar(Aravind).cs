@@ -41,8 +41,8 @@ namespace _1evaluationOnClass
         {
             HATCHBACK car1 = new HATCHBACK();
             SEDAN car2 = new SEDAN();
-            Console.WriteLine(car1.GetMilage());
-            Console.WriteLine(car2.GetMilage());
+            Console.WriteLine("the mileage of Hatchback is:  " + car1.GetMilage());
+            Console.WriteLine("the mileage of Sedan is: " + car2.GetMilage());
 
             Console.ReadKey();
         }
